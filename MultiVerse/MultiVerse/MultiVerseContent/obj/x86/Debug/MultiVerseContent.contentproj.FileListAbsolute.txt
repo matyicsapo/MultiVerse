@@ -1,0 +1,4 @@
+d:\14A_CsapoMatyi\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerseContent\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\14ACsapoMatyi\MultiVerse\MultiVerse\MultiVerseContent\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\14A_CsapoMatyi\Dev\MultiVerse\MultiVerse\MultiVerseContent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerseContent\obj\x86\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Fonts\gamefont.spritefont</Source>
+      <Name>Fonts\gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Fonts\gamefont.xnb</Output>
+      <Time>2012-02-07T14:56:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube.fbx</Source>
+      <Name>Models\cube</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Models\cube.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\cube_0.xml</Key>
+        <Value>2012-02-16T18:53:53.6284461+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Models\p1_wedge.fbx</Source>
+      <Name>Models\p1_wedge</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="Scale">0.005</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Models\p1_wedge.xnb</Output>
+      <Time>2012-02-08T14:37:10+01:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Models\p1_wedge_0.xml</Key>
+        <Value>2012-02-16T18:53:54.5384474+01:00</Value>
+      </Dependency>
+      <Request>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Skybox\easter.dds</Source>
+      <Name>Skybox\easter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\easter.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\gray_matter.dds</Source>
+      <Name>Skybox\gray_matter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\gray_matter.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\hot_nebula.dds</Source>
+      <Name>Skybox\hot_nebula</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\hot_nebula.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\ice_field.dds</Source>
+      <Name>Skybox\ice_field</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\ice_field.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\lemon_lime.dds</Source>
+      <Name>Skybox\lemon_lime</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\lemon_lime.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\milk_chocolate.dds</Source>
+      <Name>Skybox\milk_chocolate</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\milk_chocolate.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\solar_bloom.dds</Source>
+      <Name>Skybox\solar_bloom</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\solar_bloom.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\Sunset.dds</Source>
+      <Name>Skybox\Sunset</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\Sunset.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\thick_rb.dds</Source>
+      <Name>Skybox\thick_rb</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="PremultiplyAlpha">False</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\thick_rb.xnb</Output>
+      <Time>2012-02-04T17:23:42+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\wedge_p1_diff_v1.tga</Source>
+      <Name>Textures\wedge_p1_diff_v1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Textures\wedge_p1_diff_v1.xnb</Output>
+      <Time>2012-02-08T14:37:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Skybox\Skybox.fx</Source>
+      <Name>Skybox\Skybox</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\Skybox\Skybox.xnb</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\cube.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\cube_0.xml</Output>
+      <Time>2012-02-04T17:23:40+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Models\p1_wedge.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Models\p1_wedge_0.xml</Output>
+      <Time>2012-02-08T14:37:10+01:00</Time>
+    </Item>
+    <Item>
+      <Source>textures\wedge_p1_diff_v1.tga</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\textures\wedge_p1_diff_v1_0.xnb</Output>
+      <Time>2012-02-08T14:37:22+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerseContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerseContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerse\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-12-01T19:35:59.0506476+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

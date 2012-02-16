@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics" xmlns:Framework="Microsoft.Xna.Framework">
+  <Asset Type="Graphics:MeshContent">
+    <Name>cube1</Name>
+    <Identity>
+      <SourceFilename>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerseContent\Models\cube.fbx</SourceFilename>
+      <SourceTool>FbxImporter</SourceTool>
+    </Identity>
+    <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
+    <Positions>-1 -1 1 -1 1 1 1 1 1 1 -1 1 -1 -1 -1 -1 1 -1 1 1 -1 1 -1 -1</Positions>
+    <Geometry>
+      <Batch>
+        <Material>#Resource1</Material>
+        <Indices>2 1 0 0 3 2 5 4 1 1 2 5 4 6 0 0 1 4 7 5 2 2 3 7 4 5 7 7 6 4 6 7 3 3 0 6</Indices>
+        <Vertices>
+          <PositionIndices>0 3 2 1 7 6 4 5</PositionIndices>
+          <Channels>
+            <VertexChannel Name="Normal0" ElementType="Framework:Vector3">-0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 0.577350259 0.577350259 -0.577350259 0.577350259 0.577350259 0.577350259 -0.577350259 -0.577350259 0.577350259 0.577350259 -0.577350259 -0.577350259 -0.577350259 -0.577350259 -0.577350259 0.577350259 -0.577350259</VertexChannel>
+          </Channels>
+        </Vertices>
+      </Batch>
+    </Geometry>
+  </Asset>
+  <Resources>
+    <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
+      <Name>default</Name>
+      <Identity>
+        <SourceFilename>E:\Dev\XNA\MultiVerse\MultiVerse\MultiVerse\MultiVerseContent\Models\cube.fbx</SourceFilename>
+        <SourceTool>FbxImporter</SourceTool>
+      </Identity>
+      <OpaqueData>
+        <Data Key="DiffuseColor" Type="Framework:Vector3">1 1 1</Data>
+        <Data Key="EmissiveColor" Type="Framework:Vector3">0 0 0</Data>
+        <Data Key="Alpha" Type="float">1</Data>
+        <Data Key="SpecularColor" Type="Framework:Vector3">1 1 1</Data>
+        <Data Key="SpecularPower" Type="float">128</Data>
+      </OpaqueData>
+    </Resource>
+  </Resources>
+</XnaContent>

@@ -1,0 +1,27 @@
+MultiVerse is basically an AudioSurf(check that out too, it's great: http://www.audio-surf.com/ ) clone for Windows.
+
+Originally a highschool project.
+It's more of a proof of concept (also it's in alpha) version.
+
+Could use infinite amount of improvement mostly in optimization.
+
+Lacks documentation but might have hungarian comments here and there.
+You can always mail me if something's unclear though stuff below should get most questions answered.
+
+Coded with Microsoft Visual C# Express 2010.
+http://www.microsoft.com/express
+
+using XNA Game Studio 4.0 for graphics, input, application base
+download here: http://www.microsoft.com/download/en/details.aspx?id=23714
+
+and FMOD sound system
+http://fftw.org/
+
+and FFTW for the actual audio analysis
+http://fftw.org/
+
+Audio analysis while not yet fully complete is based on the following article
+http://www.badlogicgames.com/wordpress/?p=187
+(date last checked: 2012.02.16.)
+
+Created by Matyi Csapó from Hungary.
