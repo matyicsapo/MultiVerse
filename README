@@ -1,3 +1,8 @@
+******
+put musicfiles to MusicFiles (ony mp3 and flac are supported  for now, also only one with a bit depth of 16bits)
+the level loading times are horrible - bear with them if you're trying the game
+******
+
 MultiVerse is basically an AudioSurf(check that out too, it's great: http://www.audio-surf.com/ ) clone for Windows.
 
 Originally a highschool project.
