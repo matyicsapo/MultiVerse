@@ -65,7 +65,7 @@ namespace MultiVerse
 				if (pitch < -pitchLimit)
 					pitch = -pitchLimit;
 			}
-			else if (GameMultiVerse.Instance.inverseY ? ks.IsKeyDown(Keys.S) : ks.IsKeyDown(Keys.W) |
+			else if (GameMultiVerse.Instance.inverseY ? ks.IsKeyDown(Keys.S) : ks.IsKeyDown(Keys.W) ||
 					GameMultiVerse.Instance.inverseY ? ks.IsKeyDown(Keys.Down) : ks.IsKeyDown(Keys.Up))
 			{
 				pitch += pitchSpd * (float)gameTime.ElapsedGameTime.TotalSeconds;

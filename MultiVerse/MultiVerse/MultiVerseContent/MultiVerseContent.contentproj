@@ -66,11 +66,6 @@
       <Processor>TextureProcessor</Processor>
       <ProcessorParameters_PremultiplyAlpha>False</ProcessorParameters_PremultiplyAlpha>
     </Compile>
-    <Compile Include="Skybox\hot_nebula.dds">
-      <Name>hot_nebula</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
     <Compile Include="Skybox\ice_field.dds">
       <Name>ice_field</Name>
       <Importer>TextureImporter</Importer>
@@ -96,12 +91,6 @@
     </Compile>
     <Compile Include="Skybox\solar_bloom.dds">
       <Name>solar_bloom</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <ProcessorParameters_PremultiplyAlpha>False</ProcessorParameters_PremultiplyAlpha>
-    </Compile>
-    <Compile Include="Skybox\Sunset.dds">
-      <Name>Sunset</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <ProcessorParameters_PremultiplyAlpha>False</ProcessorParameters_PremultiplyAlpha>
